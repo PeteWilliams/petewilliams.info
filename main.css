@@ -144,6 +144,7 @@ section p:hover {
 	background: 	#E5E5E5;
 }
 
+
 section p a {
 	color:				#8C8C8D;
 	display:			block;
@@ -151,6 +152,29 @@ section p a {
 	position: 			absolute;
 	left: 				120px;
 	top:				30px;
+}
+
+section p:last-child {
+	color:			#8C8C8D;
+	background: 	none;
+	cursor:			auto;
+	padding-left:  	0;
+	padding-top:  	0;
+	width: 			100%;
+	display:		inline;
+}
+
+section p:last-child a {
+	display:		inline;
+	position: 		relative;
+	left: 			0;
+	top:			0;
+	font-size: 		initial;
+	font-weight: 	500;
+	margin-top: 	0;
+	text-transform: none;
+	text-decoration: underline;
+	letter-spacing: normal;
 }
 
 section p span {
